@@ -9,25 +9,25 @@ public class Constant implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	//this is the path of uploaded image of category
-	public static final String SERVER_IMAGE_CATEGORY="http://10.0.2.2/news/upload/category/";
+	public static final String SERVER_IMAGE_CATEGORY="http://android.telkompdc-karawang.com/telkomnews/upload/category/";
 
 	//this is the path of uploaded image of newslist thumb
-	public static final String SERVER_IMAGE_NEWSLIST_THUMBS="http://10.0.2.2/news/upload/thumbs/";
+	public static final String SERVER_IMAGE_NEWSLIST_THUMBS="http://android.telkompdc-karawang.com/telkomnews/upload/thumbs/";
 
 	//this is the path of uploaded image of news list
-	public static final String SERVER_IMAGE_NEWSLISTDETAILS="http://10.0.2.2/news/upload/";
+	public static final String SERVER_IMAGE_NEWSLISTDETAILS="http://android.telkompdc-karawang.com/telkomnews/upload/";
 
 	//this url is used to get recent 20 news in 1st tab.
-	public static final String LATEST_URL = "http://10.0.2.2/news/api.php?latest_news=50";
+	public static final String LATEST_URL = "http://android.telkompdc-karawang.com/telkomnews/api.php?latest_news=50";
 
 	//this url gives list of category in 2nd tab
-	public static final String CATEGORY_URL = "http://10.0.2.2/news/api.php";
+	public static final String CATEGORY_URL = "http://android.telkompdc-karawang.com/telkomnews/api.php";
 
 	//this url gives item of specific category.
-	public static final String CATEGORY_ITEM_URL = "http://10.0.2.2/news/api.php?cat_id=";
+	public static final String CATEGORY_ITEM_URL = "http://android.telkompdc-karawang.com/telkomnews/api.php?cat_id=";
 
 	//this url gives your company details
-	public static final String COMPANY_DETAILS_URL = "http://10.0.2.2/news/api.php?apps_details";
+	public static final String COMPANY_DETAILS_URL = "http://android.telkompdc-karawang.com/telkomnews/api.php?apps_details";
 
   
 	public static final String CATEGORY_ARRAY_NAME="NewsApp";
