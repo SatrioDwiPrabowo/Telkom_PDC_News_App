@@ -2,6 +2,7 @@ package dev.telkompdckarawang.news;
 //author 	: SatrioDwiPrabowo
 //designer 	: Asep Eka M
 //Company 	: CCDP Telkom PDC Karawang
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import com.parse.ParseAnalytics;
 import com.parse.ParseInstallation;
 import com.parse.PushService;
 import com.startapp.android.publish.StartAppAd;
+import android.provider.Settings;
 
 public class MainActivityTab extends ActionBarActivity {
 
@@ -186,5 +188,10 @@ public class MainActivityTab extends ActionBarActivity {
         }
     }
 
+    // Added auto rotation (Try 1)
+    public static void setAutoOrientationEnabled(Context context, boolean enabled)
+    {
+        Settings.System.putInt( context.getContentResolver(), Settings.System.ACCELEROMETER_ROTATION, enabled ? 1 : 0);
+    }
 
 }
