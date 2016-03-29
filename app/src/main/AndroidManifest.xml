@@ -13,9 +13,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_logo_app"
+        android:icon="@drawable/telkomnews"
         android:label="@string/app_name"
-        android:theme="@style/MyMaterialTheme" >
+        android:theme="@style/TelkomMaterialTheme" >
 
         <activity
             android:name="dev.telkompdckarawang.news.Splash"
