@@ -53,6 +53,12 @@
             android:configChanges="orientation|keyboardHidden|screenSize" >
         </activity>
 
+        <!--Added Activity for Settings-->
+        <activity
+            android:name="dev.telkompdckarawang.news.settings_ui"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

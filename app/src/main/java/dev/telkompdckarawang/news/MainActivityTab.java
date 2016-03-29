@@ -12,7 +12,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -139,6 +138,7 @@ public class MainActivityTab extends ActionBarActivity {
                 return true;
 
 
+
             case R.id.menu_moreapp:
                 startActivity(new Intent(Intent.ACTION_VIEW,
                         Uri.parse(getString(R.string.play_more_apps))));
@@ -156,6 +156,12 @@ public class MainActivityTab extends ActionBarActivity {
                                     + appName)));
                 }
                 return true;
+
+            case R.id.settings:
+                Intent settings = new Intent(getApplicationContext(), settings_ui.class);
+                startActivity(settings);
+                return true;
+
 
             default:
                 return super.onOptionsItemSelected(menuItem);

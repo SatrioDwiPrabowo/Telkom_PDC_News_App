@@ -16,6 +16,11 @@
         android:title="@string/menu_rateapp"
         app:showAsAction="never"/>
 
+    <!-- Settings Apps -->
+    <item android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
     <!-- More App -->
     <item android:id="@+id/menu_moreapp"
         android:title="@string/menu_moreapp"
