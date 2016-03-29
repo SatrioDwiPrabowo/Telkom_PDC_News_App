@@ -28,9 +28,9 @@ public class MainActivityTab extends ActionBarActivity {
 
     Toolbar toolbar;
     ViewPager pager;
-    ViewPagerAdapter adapter;
+    public ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[]={"Recent News","Category"};
+    CharSequence Titles[]={"Recent News", "Category"};
     int Numboftabs =2;
 
     private AdView mAdView;
@@ -42,7 +42,7 @@ public class MainActivityTab extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         StartAppAd.init(this, getString(R.string.startapp_dev_id), getString(R.string.startapp_app_id));
         setContentView(R.layout.activity_main_tab);
-
+        //creating swipe to refr
         // Creating The Toolbar and setting it as the Toolbar for the activity
 
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
