@@ -15,7 +15,7 @@ public class Splash extends ActionBarActivity {
         setContentView(R.layout.splash);
         
         /** Creates a count down timer, which will be expired after 5000 milliseconds */         
-        new CountDownTimer(5000,1000) {        	
+        new CountDownTimer(500,100) {
         	
         	/** This method will be invoked on finishing or expiring the timer */
 			@Override
