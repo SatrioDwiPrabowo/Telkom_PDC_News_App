@@ -19,24 +19,23 @@
     <string name="menu_search">Search</string>
     
     <!-- About Content -->
-    <string name="app_email">ccdp_karawang@telkompdc.com</string>
-    <string name="app_website">http://telkompdc-karawang.com</string>
-    <string name="app_description">This app made Staff IT Support with many people Open Source Developers this app is for Student Of Telkom PDC Karawang make easy all about information like a Academic , Finance , Campus Club this app based from Android Os Platform </string>
-
+    <string name="app_email">Email : ccdp_karawang@telkompdc.com</string>
+    <string name="app_website">Visit : http://telkompdc-karawang.com</string>
+    <string name="app_description">Main Programmer : SatrioDwiPrabowo \n Designer : Asep Eka Mulyana \n We made this app for student Telkom PDC Karawang, all about information campus is here..</string>
     <!-- Change AdMob Banner and Interstitial ID -->
-    <string name="admob_publisher_id">ca-app-pub-2275082029538522/9859232298</string>
-    <string name="admob_interstitial_id">ca-app-pub-2275082029538522/3812698697</string>
+    <string name="admob_publisher_id">ca-pub-8162887507884979/5120835842</string>
+    <string name="admob_interstitial_id">ca-app-pub-8162887507884979/6597569043</string>
 
     <!-- Change Startapp Developer and App ID -->
-    <string name="startapp_dev_id">102358176</string>
-    <string name="startapp_app_id">203718681</string>
+    <string name="startapp_dev_id">102424457</string>
+    <string name="startapp_app_id">202900359</string>
 	
 	<!-- Parse Push Notification Application ID and Client Key -->
-    <string name="parse_application_id">p9UFEJGKofnTsoem9GpfDz3EyL6dXyR01LzUEMSP</string>
-    <string name="parse_client_key">5XCkK0gwYh670vE8Avb26etq0hCgJOasHqdtM2sR</string>
+    <string name="parse_application_id">noKBxDT4oHfiIyeh1rRi46CZlYmaKmbNyw0hQKMt</string>
+    <string name="parse_client_key">KftQnPJPujcrZGRWyCSsJg8E6wBtmRc1EqonO7MO</string>
     
     <!-- play store application link i.e more apps -->
-    <string name="play_more_apps">https://play.google.com/store/search?q=solodroid+application</string>
+    <string name="play_more_apps">https://play.google.com/store/search?q=</string>
 
     <string name="drawer_open">Menu opened</string>
     <string name="drawer_close">Menu closed</string>
@@ -46,5 +45,7 @@
     <string name="search">Search</string>
     <string name="action_search">Search</string>
     <string name="action_filter">Filter</string>
+    <string name="telkom1">Recent News</string>
+    <string name="telkom2">Category</string>
     
 </resources>
