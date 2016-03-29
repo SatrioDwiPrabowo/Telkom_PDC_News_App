@@ -26,7 +26,7 @@ import android.provider.Settings;
 
 public class MainActivityTab extends ActionBarActivity {
 
-    // Declaring Your View and Variables
+    // Declaring View and Variables
 
     Toolbar toolbar;
     ViewPager pager;
