@@ -27,14 +27,27 @@ public class Login extends Activity implements OnClickListener{
 
     private EditText user, pass;
     private Button mSubmit, mRegister;
+
     // Progress Dialog
     private ProgressDialog pDialog;
+
     // JSON parser class
     JSONParser jsonParser = new JSONParser();
+
     //php login script location:
-    //testing on main server 1:
-    private static final String LOGIN_URL = "https://www.siakad.telkompdc-karawang.com/login/login.php";
+
+    //localhost :
+    //testing on your device
+    //put your local ip instead,  on windows, run CMD > ipconfig
+    //or in mac's terminal type ifconfig and look for the ip under en0 or en1
+    // private static final String LOGIN_URL = "http://xxx.xxx.x.x:1234/webservice/login.php";
+
+    //testing on Emulator:
+    private static final String LOGIN_URL = "http//siakad.telkompdc-karawang.com/akademik/login/login.php";
+
     //testing from a real server:
+    //private static final String LOGIN_URL = "http://www.yourdomain.com/webservice/login.php";
+
     //JSON element ids from repsonse of php script:
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";
@@ -64,20 +77,27 @@ public class Login extends Activity implements OnClickListener{
         // TODO Auto-generated method stub
         switch (v.getId()) {
             case R.id.login:
-                new AttemptLogin().execute();
+                new AttemptLogin(user.getText().toString(), pass.getText().toString()).execute();
                 break;
-            case R.id.register:
-                Intent i = new Intent(this, MainActivityTab.class);
-                startActivity(i);
-                break;
+                //break;
+         //   case R.id.register:
+         //       Intent i = new Intent(this, Register.class);
+        //        startActivity(i);
+        //        break;
 
             default:
                 break;
         }
     }
 
-    class AttemptLogin extends AsyncTask<String, String, String> {
+    private class  AttemptLogin extends AsyncTask<String, String, String>{
 
+        // member variables of the task class
+        String uName, pwd;
+        public AttemptLogin(String userName, String password) {
+            uName = userName;
+            pwd = password;
+        }
         /**
          * Before starting background thread Show Progress Dialog
          * */
@@ -85,20 +105,26 @@ public class Login extends Activity implements OnClickListener{
 
         @Override
         protected void onPreExecute() {
+            String username;
+            String password;
             super.onPreExecute();
             pDialog = new ProgressDialog(Login.this);
             pDialog.setMessage("Attempting login...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(true);
             pDialog.show();
+            username = user.getText().toString();
+            password = pass.getText().toString();
         }
+
 
         @Override
         protected String doInBackground(String... args) {
             // TODO Auto-generated method stub
             // Check for success tag
+
+
             int success;
-            //red underline maybe this not successfully
             String username = user.getText().toString();
             String password = pass.getText().toString();
             try {
@@ -148,5 +174,6 @@ public class Login extends Activity implements OnClickListener{
         }
 
     }
+
 
 }
