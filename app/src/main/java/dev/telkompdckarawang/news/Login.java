@@ -94,8 +94,8 @@ public class Login extends Activity implements OnClickListener{
 
         // member variables of the task class
         String uName, pwd;
-        public AttemptLogin(String userName, String password) {
-            uName = userName;
+        public AttemptLogin(String username, String password) {
+            uName = username;
             pwd = password;
         }
         /**
