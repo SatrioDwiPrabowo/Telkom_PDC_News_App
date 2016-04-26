@@ -21,7 +21,7 @@ public class Splash extends ActionBarActivity {
 			@Override
 			public void onFinish() {
 				/** Creates an intent to start new activity */
-				Intent intent = new Intent(getBaseContext(), Login.class);
+				Intent intent = new Intent(getBaseContext(), MainActivityTab.class);
 				
 				//memulai activity baru ketika waktu timer habis
 				startActivity(intent);

@@ -20,8 +20,8 @@
     
     <!-- About Content -->
     <string name="app_email">Email : ccdp_karawang@telkompdc.com</string>
-    <string name="app_website">Visit : http://telkompdc-karawang.com</string>
-    <string name="app_description">Main Programmer : SatrioDwiPrabowo\nDesigner : Asep Eka Mulyana\nWe made this app for student Telkom PDC Karawang, all about information campus is here..</string>
+    <string name="app_website">Visit : https://telkompdc-karawang.com</string>
+    <string name="app_description">Main Programmer :\nSatrioDwiPrabowo\nDesigner :\nAsep Eka Mulyana\n\nWe made this app for student Telkom PDC Karawang, all about information campus is here..</string>
     <!-- Change AdMob Banner and Interstitial ID -->
     <string name="admob_publisher_id">ca-pub-8162887507884979/5120835842</string>
     <string name="admob_interstitial_id">ca-app-pub-8162887507884979/6597569043</string>
@@ -49,5 +49,15 @@
     <string name="telkom2">Category</string>
     <string name="register">Register</string>
     <string name="login">Login</string>
+    <string name="hint_email">Nim</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
     
 </resources>

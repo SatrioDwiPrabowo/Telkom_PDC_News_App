@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Setelan</string>
+    <string name="hello_world">Hello dunia!</string>
+    <string name="img_no">Tidak ada favgiorit ditemukan</string>
+    <string name="desc">desc</string>
+    <string name="menu_share">Bagikan</string>
+    <string name="menu_next">Halaman selanjutnya</string>
+    <string name="menu_fav">Favorit</string>
+    <string name="menu_back">Halaman sebelumnya</string>
+    <string name="menu_favorite">Favorit saya</string>
+    <string name="menu_about">Tentang aplikasi</string>
+    <string name="menu_moreapp">Lebih banyak aplikasi</string>
+    <string name="menu_rateapp">Rate Aplikasi</string>
+    <string name="search_hint">Hint</string>
+    <string name="refresh">Segarkan</string>
+    <string name="menu_search">Cari</string>
+    <!-- About Content -->
+    <string name="app_email">Email : ccdp_karawang@telkompdc.com</string>
+    <string name="app_website">Kunjungi : https://telkompdc-karawang.com</string>
+    <string name="app_description">Main Programmer : SatrioDwiPrabowo \nDesigner : Asep Eka Mulyana \nKami membuat aplikasi Telkom News ini untuk memudahkan mahasiswa mengetahui seputar berita kampus</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="settings">Settings</string>
+    <string name="myaccount">My Account</string>
+    <string name="stats">Stats</string>
+    <string name="search">Search</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="telkom1">Recent News</string>
+    <string name="telkom2">Category</string>
+
+</resources>
